@@ -1,3 +1,3 @@
 const mongoose = require('mongoose');
-
-mongoose.connect('mongodb://127.0.0.1:27017/impravia-connect');
+const connectionString = `mongodb://lrrchinedu_db_user:${process.env.mongodbpassword}@ac-y1ur4ff-shard-00-00.74sgnm2.mongodb.net:27017,ac-y1ur4ff-shard-00-01.74sgnm2.mongodb.net:27017,ac-y1ur4ff-shard-00-02.74sgnm2.mongodb.net:27017/?ssl=true&replicaSet=atlas-xx475r-shard-0&authSource=admin&appName=Cluster0-test-projects/`
+mongoose.connect(`${connectionString}`);
