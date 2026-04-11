@@ -26,6 +26,6 @@ app.post('/notify-save', async (req, res) => {
 })
 
 
-//app.listen(process.env.PORT || 3000, () => {console.log("we're live.");});
+app.listen(process.env.PORT || 3000, () => {console.log("we're live.");});
 
-module.exports = {app}
+//module.exports = {app}
