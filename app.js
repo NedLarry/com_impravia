@@ -4,13 +4,19 @@ const express = require('express');
 require('dotenv').config();
 require('./db/mongooseConnect.js')
 const UserEmail = require('./db/model/userEmail.js');
+const cors = require('cors');
 
 const app = express();
 app.use(express.json());
-app.use(express.static(path.join(__dirname, './public')))
+app.use(express.static(path.join(__dirname, './public')));
+
+app.use(cors({
+    origin: '*'
+}));
 
 app.post('/notify-save', async (req, res) => {
     try{
+
         await new UserEmail(req.body).save()
         res.send({status: 'success'});
 
