@@ -1,0 +1,17 @@
+{
+  "name": "eLoans",
+  "order": 20,
+  "url": "https://bnacle.vercel.app/",
+  "category": "Digital lending",
+  "summary": "Smart loans for every borrower: personal, business and emergency facilities, applied for entirely online.",
+  "details": [
+    "eLoans brings borrowers and lenders onto one platform. Each signs up for the side they need, and the dashboard shows them what matters to that side.",
+    "Sign-up runs in three steps (account, verification and profile) with credit decisions made online and pricing shown up front."
+  ],
+  "features": [
+    "Personal, business and emergency loans",
+    "Separate borrower and lender dashboards",
+    "Three-step online onboarding",
+    "Transparent pricing, no hidden fees"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Diadem Consults",
+  "order": 10,
+  "url": "https://ddc-seven-green.vercel.app/",
+  "sector": "Technology consulting",
+  "tagline": "clarity with conviction",
+  "description": "Clear answers to hard technology decisions, for individuals and businesses. Talk a problem through on a call, or send over a piece of work that needs scoping or building, and hear back within one business day.",
+  "services": [
+    "30-minute consultation calls: build or buy, stalled projects, architecture",
+    "Technology requests: migrations, integrations, audits, new features",
+    "Every booking tracked with a reference"
+  ],
+  "relationship": "Subsidiary of Impravia Limited",
+  "founded": "2025",
+  "location": "Lagos, Nigeria"
+}
