@@ -3,6 +3,7 @@
   "order": 20,
   "url": "https://bnacle.vercel.app/",
   "category": "Digital lending",
+  "status": "Demo",
   "summary": "Smart loans for every borrower: personal, business and emergency facilities, applied for entirely online.",
   "details": [
     "eLoans brings borrowers and lenders onto one platform. Each signs up for the side they need, and the dashboard shows them what matters to that side.",
