@@ -1,0 +1,8 @@
+{
+  "name": "Empowa",
+  "order": 40,
+  "url": "http://localhost:4200/",
+  "category": "Private Equity",
+  "status": "In development",
+  "summary": "A seamless way for startups/businesses to obtain funding and other infrastructural needs"
+}
