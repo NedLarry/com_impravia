@@ -11,6 +11,20 @@ npm run build        # production files in dist/, ready to upload to any static 
 npm run preview      # serve the built dist/ locally to check it
 ```
 
+## Deploying to Vercel
+
+The site is fully static, and `vercel.json` already holds the settings
+(build command, `dist/` output, caching and security headers).
+
+- **From Git:** import the repository at vercel.com/new. The settings are
+  picked up automatically, and every push to the production branch deploys.
+- **From the terminal:** `npx vercel` for a preview, `npx vercel --prod` to
+  go live.
+
+The build runs the same content checks as `npm run build` locally, so an
+invalid entry stops the deploy, and the live site stays as it was. The
+admin page is not deployed. Edit content locally, then commit and push.
+
 ## Adding products and subsidiaries
 
 Each entry is its own folder:
