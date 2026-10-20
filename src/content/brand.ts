@@ -11,7 +11,7 @@ export const brand = {
   registration: 'RC 9410057',
   location: 'Lagos, Nigeria',
   motto: 'Making the impossible plausible',
-  email: 'chinedu@impravia.com',
+  email: 'admin@impravia.com',
 
   logo: {
     /** Primary horizontal lockup, for dark backgrounds */
