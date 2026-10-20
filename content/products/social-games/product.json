@@ -1,0 +1,17 @@
+{
+  "order": 10,
+  "name": "Social Games",
+  "category": "Browser games",
+  "summary": "Quick games you can play right in your browser. No downloads, no sign-up.",
+  "details": [
+    "Led by Whot, the classic Naija card game of shapes and numbers, in three modes: Classic, Match the Card and Higher or Lower.",
+    "Alongside it sit arcade and puzzle favourites: Snake, Tetris, Sudoku, 2048 and Whack-a-Mole. More games are on the way."
+  ],
+  "features": [
+    "Whot in three game modes",
+    "Arcade and puzzle games",
+    "Plays in the browser, no account needed"
+  ],
+  "status": "Live",
+  "url": "https://social-plug-eight.vercel.app/"
+}

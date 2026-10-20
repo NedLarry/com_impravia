@@ -1,0 +1,17 @@
+{
+  "order": 30,
+  "name": "Stakeout",
+  "category": "Peer-to-peer wagers",
+  "summary": "Bet against an action or event happening, or against each other performing one.",
+  "details": [
+    "Every player sets up a handle, so counter-parties and spectators know who is on each side. Open wagers stay on your account until they are settled.",
+    "Stakeout is currently a demo. A waitlist is open for launch."
+  ],
+  "features": [
+    "Peer-to-peer wagers",
+    "Public handles for players and spectators",
+    "Track and settle open wagers"
+  ],
+  "status": "Demo",
+  "url": "https://stakeout-chi.vercel.app/#/login"
+}
