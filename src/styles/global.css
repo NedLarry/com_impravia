@@ -357,7 +357,8 @@ a { color: inherit; }
 
 .hero-art {
   justify-self: end;
-  width: min(100%, 520px);
+  /* The brand icon is tall (245:600), so size it by width with a height cap */
+  width: min(100%, 220px);
   transform: translate3d(var(--px, 0), var(--py, 0), 0);
   transition: transform 0.6s var(--ease);
 }
@@ -1222,7 +1223,7 @@ a { color: inherit; }
   .hero-art {
     order: -1;
     justify-self: start;
-    width: min(46vw, 240px);
+    width: min(24vw, 96px);
   }
   .cards { grid-template-columns: 1fr; }
   .card-index { margin-bottom: 16px; }

@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 import Logo from './Logo.tsx'
-import { nav, hero } from '../content/site.ts'
+import { nav } from '../content/site.ts'
 import { useActiveSection } from '../hooks/useReveal.ts'
 
 const sectionIds = nav.map((n) => n.id)
@@ -64,9 +64,6 @@ export default function Header() {
               </li>
             ))}
           </ul>
-          <a className="btn btn-small" href="#contact" onClick={close}>
-            {hero.primaryCta}
-          </a>
         </nav>
       </div>
     </header>

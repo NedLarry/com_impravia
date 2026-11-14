@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 import type { MouseEvent } from 'react'
 import { products } from '../content/site.ts'
+import { brand } from '../content/brand.ts'
 import { productList } from '../content/collections.ts'
 import type { Product } from '../content/collections.ts'
 
@@ -25,7 +26,6 @@ export default function Products() {
   const [openSlug, setOpenSlug] = useState<string | null>(null)
   const dialogRef = useRef<HTMLDialogElement>(null)
   const openerRef = useRef<HTMLElement | null>(null)
-  const leavingRef = useRef(false) // true when a link inside the dialog navigates elsewhere
   const current = productList.find((p) => p.slug === openSlug) ?? null
 
   const open = useCallback((slug: string, opener?: HTMLElement) => {
@@ -63,17 +63,8 @@ export default function Products() {
 
   const onDialogClose = () => {
     setOpenSlug(null)
-    if (leavingRef.current) {
-      leavingRef.current = false
-      return
-    }
     history.replaceState(null, '', '#products')
     openerRef.current?.focus({ preventScroll: true })
-  }
-
-  const leaveTo = () => {
-    leavingRef.current = true
-    close()
   }
 
   // Click on the dimmed backdrop (outside the panel) closes the dialog
@@ -167,7 +158,10 @@ export default function Products() {
                     <span aria-hidden="true">↗</span>
                   </a>
                 )}
-                <a className="btn btn-ghost" href="#contact" onClick={leaveTo}>
+                <a
+                  className="btn btn-ghost"
+                  href={`mailto:${brand.email}?subject=${encodeURIComponent(`Enquiry: ${current.name}`)}`}
+                >
                   Ask about {current.name}
                 </a>
               </div>

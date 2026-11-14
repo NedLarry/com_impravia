@@ -65,10 +65,10 @@ export default function Hero() {
           </h1>
           <p className="lead reveal">{hero.lead}</p>
           <div className="hero-actions reveal">
-            <a className="btn" href="#contact">
+            <a className="btn" href="#products">
               {hero.primaryCta}
             </a>
-            <a className="btn btn-ghost" href="#method">
+            <a className="btn btn-ghost" href="#subsidiaries">
               {hero.secondaryCta}
             </a>
           </div>
@@ -80,7 +80,7 @@ export default function Hero() {
         </div>
       </div>
 
-      <a className="scroll-cue" href="#approach" aria-label="Scroll to approach">
+      <a className="scroll-cue" href="#subsidiaries" aria-label="Scroll to subsidiaries">
         <span />
       </a>
     </section>

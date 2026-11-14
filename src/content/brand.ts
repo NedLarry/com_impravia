@@ -22,7 +22,7 @@ export const brand = {
     markDark: '/brand/mark-dark-bg.svg',
     markLight: '/brand/mark-light-bg.svg',
     /** Intrinsic sizes, used for width/height attributes to avoid layout shift */
-    horizontalSize: { width: 1100, height: 200 },
-    markSize: { width: 231, height: 200 },
+    horizontalSize: { width: 2032, height: 580 },
+    markSize: { width: 245, height: 600 },
   },
 } as const
